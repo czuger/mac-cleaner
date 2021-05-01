@@ -1,10 +1,10 @@
 require 'fileutils'
 
 directories = [
-  '/Users/ced/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage',
-  '/Users/ced/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage',
-  '/Users/ced/Library/Application Support/Slack/Service Worker/CacheStorage',
-  '/Users/ced/Library/Caches'
+  '~/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage',
+  '~/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage',
+  '~/Library/Application Support/Slack/Service Worker/CacheStorage',
+  '~/Library/Caches'
 ]
 
 directories.each do |dir|
