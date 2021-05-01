@@ -7,6 +7,7 @@ directories = [
   '~/Library/Caches'
 ]
 
+puts 'Cleaning directories'
 directories.each do |dir|
   Dir["#{dir}/*"].each do |path|
     puts "Deleting #{path}/*"
